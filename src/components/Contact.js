@@ -14,34 +14,25 @@ const Contact = () => {
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-xl-7">
 
-                            <form id="contactForm" name="contact" action="POST" netlify>
-                                <div class="form-floating mb-3">
-                                    <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                    <label for="name">Full name</label>
-                                    <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                    <label for="email">Email address</label>
-                                    <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                    <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <input class="form-control" id="phone" type="phone" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                    <label for="phone">Phone number</label>
-                                    <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                                </div>
-                                <div class="form-floating mb-3">
-                                    <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." data-sb-validations="required"></textarea>
-                                    <label for="message">Message</label>
-                                    <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                                </div>
-
-                                <div class="form-floating mb-3">
-                                    <div data-netlify-recaptcha="true"></div>
-                                </div>
-
-                                <button class="btn float-left btn-primary btn-xl " id="submitButton" type="submit">Send</button>
+                            <form name="contact" method="POST" data-netlify="true">
+                                <p>
+                                    <label>Your Name: <input type="text" name="name" /></label>
+                                </p>
+                                <p>
+                                    <label>Your Email: <input type="email" name="email" /></label>
+                                </p>
+                                <p>
+                                    <label>Your Role: <select name="role[]" multiple>
+                                        <option value="leader">Leader</option>
+                                        <option value="follower">Follower</option>
+                                    </select></label>
+                                </p>
+                                <p>
+                                    <label>Message: <textarea name="message"></textarea></label>
+                                </p>
+                                <p>
+                                    <button type="submit">Send</button>
+                                </p>
                             </form>
                         </div>
                     </div>
