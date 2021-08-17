@@ -27,7 +27,7 @@ const Contact = () => {
                                     <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                                 </div>
                                 <div class="form-floating mb-3">
-                                    <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                    <input class="form-control" id="phone" type="phone" placeholder="(123) 456-7890" data-sb-validations="required" />
                                     <label for="phone">Phone number</label>
                                     <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                                 </div>
