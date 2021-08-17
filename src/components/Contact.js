@@ -14,7 +14,7 @@ const Contact = () => {
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-xl-7">
 
-                            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <form id="contactForm" action="POST" data-netlify="true " data-sb-form-api-token="API_TOKEN">
                                 <div class="form-floating mb-3">
                                     <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
                                     <label for="name">Full name</label>
@@ -35,6 +35,10 @@ const Contact = () => {
                                     <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." data-sb-validations="required"></textarea>
                                     <label for="message">Message</label>
                                     <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                                </div>
+
+                                <div class="form-floating mb-3">
+                                    <div data-netlify-recaptcha="true"></div>
                                 </div>
 
                                 <button class="btn float-left btn-primary btn-xl " id="submitButton" type="submit">Send</button>

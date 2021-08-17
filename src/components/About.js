@@ -13,7 +13,17 @@ const About = () => {
                     </div>
                     <div class="row h4 font-weight-normal ">
 
-                        <p>About the company: created in 2011 in the province of Quebec as an incorporated one and registered too, we provided floor services to the provinces of Quebec and Ontario since then  specializing in VCT flooring as well as ceramics(scrubbing, stripping and waxing) we  dedicated our services to big superstores chains like Loblaws, Maxi, Provigo, IGA and to all small businesses needing their floors to look like brand new again. We also work on all kinds of hardwood floors(sanding, staining and finishing) We have moved to the province of Nova Scotia recently and it is our intention to keep offering our services and expertise at an affordable and competitive price
+                        <p>About the company: We provide floor services in the province of Nova Scotia
+                            specializing in VCT (Vinyl Composite Tiles), ceramics and all types
+                            of hardwood flooring
+
+                            The company was created in 2011 in. We have relocated to Nova
+                            Scotia and it is our intention to keep offering our services and
+                            expertise at an affordable and competitive price
+
+                            We have provided services to large corporate chains like Loblaws,
+                            Maxi, Provigo, IGA and as well as small independent businesses
+                            wanting their floors to be pristine and always looking like new.
                         </p>
 
                         <h2 class="page-section-heading text-center text-uppercase text-white mt-5">Services</h2>
@@ -22,31 +32,58 @@ const About = () => {
                             <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                             <div class="divider-custom-line"></div>
                         </div>
-                        <p className="h4 font-weight-normal"> Services: The do-it yourself process is most of the time complicated and very tricky. If you do not have the right mixture of cleaning materials and equipment, you might damage your floor permanently, professionals can also identify damages , stains ,etc  and then use the right procedure to fix the problem. Most of the time the right equipment is hard to handle so let our team's experience and skills help you out!
-                            We will take care of your floors so they look new again with services we offer:
+                        {/* <div className="container mx-auto">
+                            <div className="row mx-auto">
+                                <div className="col-sm-4">
+                                    <h2>1. VCT (Vinyl Composite Tile) Linoleum Ceramic Services</h2>
+                                    <li className="h4 font-weight-normal">
+                                        Scrubbing, stripping, waxing, polishing, and general floor
+                                        maintenance services.
+                                    </li>
+                                </div>
+
+
+                                <div className="col-sm-4">
+                                    <h2>2. Hardwood, and Engineered Hardwood Flooring</h2>
+                                    <li className="h4 font-weight-normal">
+                                        Buffing and finishing
+                                        Sanding, staining, and finishing
+                                    </li>
+                                </div>
+                            </div>
+                        </div> */}
+
+
+
+                        <p className="h4 font-weight-bold">1. VCT (Vinyl Composite Tile) Linoleum Ceramic Services
                         </p>
-                        <div class="col-lg-4  ms-auto mt-4"><p class="lead">
+                        <div class="col-lg-4 mx-auto "><p class="lead">
                             <li className="h4 font-weight-normal">
-                                Scrubbing or stripping and waxing of:
-                                VCT(Vinyl Composite Tile)
-                                Linoleum
-                                Ceramic
-                                Services like these are commonly referred to as: strip&wax, floor polishing, floor buffing, floor waxing, floor refinishing or general floor cleaning services.
+                                Scrubbing, stripping, waxing, polishing, and general floor
+                                maintenance services.
                             </li>
 
                         </p></div>
-                        <div class="col-lg-4 me-auto mt-4"><p class=" lead">
+                        <p className="h4 font-weight-bold">2. Hardwood, and Engineered Hardwood Flooring
+                        </p>
+                        <div class="col-lg-4 mx-auto"><p class=" lead">
                             <li className="h4 font-weight-normal">
-                                Hardwood Floor and Engineered Hardwood Flooring
-                                Sand, stain and finish
+                                Buffing and finishing
+                                Sanding, staining, and finishing
                             </li>
 
                         </p></div>
+                        <p className="h4 mt-4 font-weight-normal"> These processes can be complicated and challenging. It requires
+                            expertise and the right materials and equipment for it to be done
+                            properly to avoid irreversible floor damage. As skilled professionals
+                            we can readily identify areas of concerns and use the right
+                            procedure and equipment to resolve the issue(s).
+                        </p>
                     </div>
 
                 </div>
             </section>
-        </div>
+        </div >
     )
 }
 
