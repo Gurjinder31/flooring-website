@@ -14,7 +14,7 @@ const Contact = () => {
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-xl-7">
 
-                            <form id="contactForm" action="POST" data-netlify="true " data-sb-form-api-token="API_TOKEN">
+                            <form id="contactForm" action="POST" netlify data-sb-form-api-token="API_TOKEN">
                                 <div class="form-floating mb-3">
                                     <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
                                     <label for="name">Full name</label>
