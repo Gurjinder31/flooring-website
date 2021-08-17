@@ -9,6 +9,7 @@ const Footer = () => {
                         <div class="col-lg-6 mb-5 mb-lg-0">
                             <h4 class="text-uppercase mb-4">Location</h4>
                             <p class="lead mb-0">
+
                                 Fall River, NS B2T 1E6
                             </p>
                         </div>
