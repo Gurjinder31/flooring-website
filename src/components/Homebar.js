@@ -6,7 +6,7 @@ const Homebar = () => {
         <div className='Homebar--container' >
             <header className="masthead bg-primary text-blue text-center">
                 <div className=" container d-flex align-items-center flex-column" >
-                    <h1 class="masthead-heading text-uppercase mb-0">MOG FLOOR MAINITENANCE</h1>
+                    <h1 class="masthead-heading text-uppercase mb-0">MOG FLOOR Maintenance</h1>
                     <div class="divider-custom divider-blue">
                         <div class="divider-custom-line my--line"></div>
                         <div class="divider-custom-icon my--line"><i class="fas fa-star"></i></div>

@@ -13,14 +13,11 @@ const About = () => {
                     </div>
                     <div class="row h4 font-weight-normal ">
 
-                        <p>About the company: We provide floor services in the province of Nova Scotia
+                        <p>We provide floor services in the province of Nova Scotia
                             specializing in VCT (Vinyl Composite Tiles), ceramics and all types
-                            of hardwood flooring
-
-                            The company was created in 2011 in. We have relocated to Nova
+                            of hardwood flooring.The company was created in 2011 in Montreal, Quebec. We have relocated to Nova
                             Scotia and it is our intention to keep offering our services and
-                            expertise at an affordable and competitive price
-
+                            expertise at an affordable and competitive prices.
                             We have provided services to large corporate chains like Loblaws,
                             Maxi, Provigo, IGA and as well as small independent businesses
                             wanting their floors to be pristine and always looking like new.
@@ -55,21 +52,19 @@ const About = () => {
 
 
 
-                        <p className="h4 font-weight-bold">1. VCT (Vinyl Composite Tile) Linoleum Ceramic Services
+                        <p className="h4 font-weight-bold">1. VCT (Vinyl Composite Tile), Linoleum and Ceramics.
                         </p>
                         <div class="col-lg-4 mx-auto "><p class="lead">
                             <li className="h4 font-weight-normal">
-                                Scrubbing, stripping, waxing, polishing, and general floor
-                                maintenance services.
+                                Scrubbing, stripping, waxing and polishing.
                             </li>
 
                         </p></div>
-                        <p className="h4 font-weight-bold">2. Hardwood, and Engineered Hardwood Flooring
+                        <p className="h4 font-weight-bold">2. Hardwood, and Engineered Hardwood Flooring.
                         </p>
                         <div class="col-lg-4 mx-auto"><p class=" lead">
                             <li className="h4 font-weight-normal">
-                                Buffing and finishing
-                                Sanding, staining, and finishing
+                                Buffing and /or sanding, staining and finishing.
                             </li>
 
                         </p></div>

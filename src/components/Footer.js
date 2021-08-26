@@ -12,11 +12,12 @@ const Footer = () => {
 
                                 Fall River, NS B2T 1E6
                             </p>
+
                         </div>
-                        <div class="col-lg-6 mb-5 mb-lg-0">
-                            <h4 class="text-uppercase mb-4">Around the Web</h4>
-                            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+
+                        <div className="col-lg-6 mb-5 mb-lg-0">
+                            <h4 className="text-uppercase mb-4">Around the Web</h4>
+                            <a className="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/MOG-Floor-Maintenance-107212788268901/" target="_blank"><i class="fab fa-fw fa-facebook-f"></i></a>
                         </div>
 
                     </div>
