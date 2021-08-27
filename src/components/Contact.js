@@ -3,7 +3,23 @@ import React from 'react'
 const Contact = () => {
     return (
         <div>
-            <section class="page-section" id="contact">
+            <form name="contact" method="POST" onSubmit="submit" data-netlify="true">
+                <input value="contact" type="hidden" name="form-name " />
+                <p>
+                    <label>Your Name: <input value="contact" type="text" name="name" /></label>
+                </p>
+                <p>
+                    <label>Your Email: <input type="email" name="email" /></label>
+                </p>
+
+                <p>
+                    <label>Message: <textarea name="message"></textarea></label>
+                </p>
+                <p>
+                    <button type="submit">Send</button>
+                </p>
+            </form>
+            {/* <section class="page-section" id="contact">
                 <div class="container">
                     <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Us</h2>
                     <div class="divider-custom">
@@ -46,7 +62,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </div>
     )
 }
