@@ -15,7 +15,8 @@ const Contact = () => {
                     <div class="row justify-content-center">
                         <div class="col-lg-8 col-xl-7">
 
-                            <form id="contactForm" name="contact mog" method="POST" data-netlify="true">
+                            <form id="contactForm" name="contact" method="POST" data-netlify="true">
+                                <input TYPE="hidden" name="form-name" value="contact" />
                                 <div class="form-floating mb-3">
                                     <input class="form-control" name="name" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
                                     <label for="name">Full name</label>
