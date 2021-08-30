@@ -18,18 +18,18 @@ const Contact = () => {
                             <form id="contactForm" name="contact" method="POST" data-netlify="true">
                                 <input TYPE="hidden" name="form-name" value="contact" />
                                 <div class="form-floating mb-3">
-                                    <input class="form-control" name="name" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                    <input class="form-control" name="name" id="name" type="text" placeholder="Enter your name..." required data-sb-validations="required" />
                                     <label for="name">Full name</label>
                                     <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                                 </div>
                                 <div class="form-floating mb-3">
-                                    <input class="form-control" name="email" id="email" type="email" placeholder="your email" data-sb-validations="required,email" />
+                                    <input class="form-control" name="email" id="email" type="email" placeholder="your email" required data-sb-validations="required,email" />
                                     <label for="email">Email address</label>
                                     <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                     <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                                 </div>
                                 <div class="form-floating mb-3">
-                                    <input class="form-control" name="phone" id="phone" type="phone" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                    <input class="form-control" name="phone" id="phone" type="phone" required placeholder="(123) 456-7890" data-sb-validations="required" />
                                     <label for="phone">Phone number</label>
                                     <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                                 </div>
